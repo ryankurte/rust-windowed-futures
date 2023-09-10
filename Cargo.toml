@@ -1,0 +1,15 @@
+[package]
+name = "windowed-futures"
+description = "Helpers for windowed parallel execution of collections of futures"
+repository = "https://github.com/ryankurte/rust-windowed-futures"
+keywords = [ "async", "futures", "parallel", "windowing" ]
+license = "MIT"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3.28"
+log = "0.4.20"
+
+[dev-dependencies]
+tokio = { version = "1.32.0", features = [ "macros", "rt" ] }
